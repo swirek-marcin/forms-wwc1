@@ -1,2 +1,30 @@
-body { background-color: #ddd; }
+@font-face { font-family: Titillium; src: url("../fonts/TitilliumText22L-250wt.otf"); }
+
+@font-face { font-family: Titillium-600; src: url("../fonts/TitilliumText22L-600wt.otf"); }
+
+@font-face { font-family: Titillium; src: url("../fonts/TitilliumText22L-250wt.otf"); }
+
+@font-face { font-family: Titillium-600; src: url("../fonts/TitilliumText22L-600wt.otf"); }
+
+body { background-color: #ddd; font-family: Titillium-600; }
+
+@font-face { font-family: Titillium; src: url("../fonts/TitilliumText22L-250wt.otf"); }
+
+@font-face { font-family: Titillium-600; src: url("../fonts/TitilliumText22L-600wt.otf"); }
+
+@font-face { font-family: Titillium; src: url("../fonts/TitilliumText22L-250wt.otf"); }
+
+@font-face { font-family: Titillium-600; src: url("../fonts/TitilliumText22L-600wt.otf"); }
+
+@font-face { font-family: Titillium; src: url("../fonts/TitilliumText22L-250wt.otf"); }
+
+@font-face { font-family: Titillium-600; src: url("../fonts/TitilliumText22L-600wt.otf"); }
+
+@font-face { font-family: Titillium; src: url("../fonts/TitilliumText22L-250wt.otf"); }
+
+@font-face { font-family: Titillium-600; src: url("../fonts/TitilliumText22L-600wt.otf"); }
+
+@font-face { font-family: Titillium; src: url("../fonts/TitilliumText22L-250wt.otf"); }
+
+@font-face { font-family: Titillium-600; src: url("../fonts/TitilliumText22L-600wt.otf"); }
 /*# sourceMappingURL=main.css.map */
