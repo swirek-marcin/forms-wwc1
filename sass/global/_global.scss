@@ -2,7 +2,41 @@
 @import '../variables/colors';
 @import '../variables/typography';
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  // border: 1px solid red;
+}
+
 body {
-  background-color: #ddd;
   font-family: Titillium-600;
+  background-image: linear-gradient(red, #7efff5);
+}
+
+.container {
+  max-width: 100%;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+
+}
+
+.big-forms {
+  width: 420px;
+  height: 1100px;
+  background-color: yellow;
+}
+
+.small-forms {
+  width: 420px;
+  height: 870px;
+  background-color: red;
+}
+
+.register-form,
+.mail-form {
+  display: flex;
+  flex-direction: column;
 }

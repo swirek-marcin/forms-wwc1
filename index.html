@@ -21,17 +21,79 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
+  <section class="forms">
+    <div class="container">
+      <div class="big-forms">
+        <h2 class="register-form-header">Register form</h2>
+        <form action="" class="register-form">
+          <input type="text" name="imie" id="register-name">
+          <input type="password" name="pass" id="register-pass">
+          <input type="password" name="pass" id="pass">
+          <input type="email" name="email" id="register-email">
+          <input type="text" name="location" id="register-location">
+          <input type="checkbox" name="checkbox" id="register-checkbox">
+          <input type="button" value="Sign Up">
+        </form>
+        <h2 class="email-form-header">Send email</h2>
+        <form action="" class="mail-form">
+          <input type="text" name="name" id="mail-name">
+          <input type="email" name="email" id="mail-email">
+          <input type="text" name="message" id="mail-msg">
+          <input type="checkbox" name="checkbox" id="email-checkbox">
+          <input type="button" value="Send email">
+        </form>
+      </div>
+      <div class="small-forms">
+        <h2 class="sign-form-header">Sign in form</h2>
+        <form action="" class="sign-form">
+          <input type="text" name="username" id="sign-username">
+          <input type="password" name="pass-sign" id="pass-sign">
+          <div class="btn-sign-container">
+            <input type="checkbox" name="sign-checkbox" id="sign-checkbox">
+            <input type="button" value="Sign in">
+          </div>
+        </form>
+        <h2 class="recover-form-header">Recover form</h2>
+        <form action="" class="recover-form">
+          <input type="text" name="name" id="recover-name">
+          <input type="tel" name="phone-recover" id="phone-recover">
+          <div class="btn-recover-container">
+            <input type="button" value="Send">
+            <input type="button" value="Done">
+          </div>
+        </form>
+        <h2 class="subscribe-form-header">Subscribe form</h2>
+        <form action="" class="subscribe-form">
+          <input type="email" name="sub-email" id="sub-email">
+          <div class="btn-sub-container">
+            <input type="button" value="Subscribe">
+            <input type="button" value="No, thanks">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+
+  </script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
+
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
