@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  //border: 1px solid red;
 }
 
 body {
@@ -15,11 +15,22 @@ body {
   background-repeat: no-repeat;
 }
 
+h2 {
+  font-size: $font-size-xl;
+  color: $white;
+  text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+
 input {
-  margin: 22px;
+  margin: 11px;
   width: 340px;
   width: 80%;
   height: 41px;
+  background-color: $input-bcg;
+  text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
+  border: 1px solid #c6c6c6;
 }
 
 .container {
@@ -52,4 +63,12 @@ input {
   // width: 90%;
   width: 420px;
   background-color: $form-bcg;
+  box-shadow: 0 0 0 20px rgba(black, .23);
+}
+
+.btn-sign-container,
+.btn-recover-container,
+.btn-sub-container {
+  display: flex;
+  width: 85%;
 }
