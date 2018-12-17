@@ -20,17 +20,58 @@ h2 {
   color: $white;
   text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
   text-align: center;
-  padding: 40px 0 20px 0;
+  padding: 60px 0 30px 0;
 }
 
-input {
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 11px;
+  // width: 90%;
+  width: 420px;
+  background-color: $form-bcg;
+  box-shadow: 0 0 0 20px rgba(black, .23);
+}
+
+.input-text {
   margin: 11px;
   width: 340px;
-  width: 80%;
+  // width: 95%;
   height: 41px;
   background-color: $input-bcg;
-  text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
   border: 1px solid #c6c6c6;
+}
+
+.msg-input {
+  height: 230px;
+}
+
+.input-btn-big {
+  margin: 15px 0 25px 0;
+  width: 340px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+.input-btn-small {
+  // margin: 25px 0; 
+  width: 150px;
+  height: 41px;
+  border-radius: 4px;
+}
+
+.ok-btn {
+  background-color: $ok-btn-color;
+  color: $white;
+  text-shadow: 1px 1px 0 #51850e;
+  cursor: pointer;
+}
+
+.nok-btn {
+  background-color: $nok-btn-color;
+  color: $white;
+  cursor: pointer;
 }
 
 .container {
@@ -52,23 +93,12 @@ input {
 //   height: 870px;
 // }
 
-.register-form,
-.mail-form,
-.sign-form,
-.recover-form,
-.subscribe-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  // width: 90%;
-  width: 420px;
-  background-color: $form-bcg;
-  box-shadow: 0 0 0 20px rgba(black, .23);
-}
 
 .btn-sign-container,
 .btn-recover-container,
 .btn-sub-container {
   display: flex;
-  width: 85%;
+  justify-content: space-between;
+  width: 340px;
+  margin: 25px 0;
 }
