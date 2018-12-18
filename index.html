@@ -1,101 +1,261 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-</head>
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
-<body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+    <!-- Add your site or application content here -->
 
-  <!-- Add your site or application content here -->
-
-  <section class="forms">
-    <div class="container">
-      <div class="big-forms">
-        <h2 class="register-form-header">Register form</h2>
-        <form action="" class="register-form">
-          <input type="text" class="input-text" name="imie" id="register-name">
-          <input type="password" class="input-text" name="pass" id="register-pass">
-          <input type="password" class="input-text" name="pass" id="pass">
-          <input type="email" class="input-text" name="email" id="register-email">
-          <input type="text" class="input-text" name="location" id="register-location">
-          <input type="checkbox" class="input-checkbox checkbox-big" name="checkbox" id="register-checkbox">
-          <input class="ok-btn input-btn-big" type="button" value="Sign Up">
-        </form>
-        <h2 class="email-form-header">Send email</h2>
-        <form action="" class="mail-form">
-          <input type="text" class="input-text" name="name" id="mail-name">
-          <input type="email" class="input-text" name="email" id="mail-email">
-          <input type="text" class="input-text msg-input" name="message" id="mail-msg">
-          <input type="checkbox" class="input-checkbox checkbox-big" name="checkbox" id="email-checkbox">
-          <input class="ok-btn input-btn-big" type="button" value="Send email">
-        </form>
+    <section class="forms">
+      <div class="container">
+        <div class="big-forms">
+          <h2 class="register-form-header">Register form</h2>
+          <form action="" class="register-form">
+            <div class="input-container">
+              <input
+                type="text"
+                class="input-text"
+                placeholder="Username"
+                name="imie"
+                id="register-name"
+              /><i class="fas fa-user input-icon"></i>
+            </div>
+            <div class="input-container">
+              <input
+                type="password"
+                class="input-text"
+                placeholder="Password"
+                name="pass"
+                id="register-pass"
+              /><i class="fas fa-lock input-icon"></i>
+            </div>
+            <div class="input-container">
+              <input
+                type="password"
+                class="input-text"
+                placeholder="Confirm Password"
+                name="pass"
+                id="pass"
+              /><i class="fas fa-lock input-icon"></i>
+            </div>
+            <div class="input-container">
+              <input
+                type="email"
+                class="input-text"
+                placeholder="Email"
+                name="email"
+                id="register-email"
+              /><i class="fas fa-envelope input-icon"></i>
+            </div>
+            <div class="input-container">
+              <input
+                type="text"
+                class="input-text"
+                placeholder="Your Location"
+                name="location"
+                id="register-location"
+              /><i class="fas fa-map-marker-alt input-icon"></i>
+            </div>
+            <input
+              type="checkbox"
+              class="input-checkbox checkbox-big"
+              name="checkbox"
+              id="register-checkbox"
+            />
+            <input class="ok-btn input-btn-big" type="button" value="Sign Up" />
+          </form>
+          <h2 class="email-form-header">Send email</h2>
+          <form action="" class="mail-form">
+            <div class="input-container">
+              <input
+                type="text"
+                class="input-text"
+                placeholder="Your Name"
+                name="name"
+                id="mail-name"
+              /><i class="fas fa-user input-icon"></i>
+            </div>
+            <div class="input-container">
+              <input
+                type="email"
+                class="input-text"
+                placeholder="Your Email"
+                name="email"
+                id="mail-email"
+              /><i class="fas fa-envelope input-icon"></i>
+            </div>
+            <input
+              type="text"
+              class="input-text msg-input"
+              placeholder="Type your message..."
+              name="message"
+              id="mail-msg"
+            />
+            <input
+              type="checkbox"
+              class="input-checkbox checkbox-big"
+              name="checkbox"
+              id="email-checkbox"
+            />
+            <input
+              class="ok-btn input-btn-big"
+              type="button"
+              value="Send email"
+            />
+          </form>
+        </div>
+        <div class="small-forms">
+          <h2 class="sign-form-header">Sign in form</h2>
+          <form action="" class="sign-form">
+            <div class="input-container">
+              <input
+                type="text"
+                class="input-text"
+                placeholder="Username"
+                name="username"
+                id="sign-username"
+              /><i class="fas fa-user input-icon"></i>
+            </div>
+            <div class="input-container">
+              <input
+                type="password"
+                class="input-text"
+                placeholder="Password"
+                name="pass-sign"
+                id="pass-sign"
+              /><i class="fas fa-lock input-icon"></i>
+            </div>
+            <div class="btn-sign-container">
+              <input
+                type="checkbox"
+                class="input-checkbox"
+                name="sign-checkbox"
+                id="sign-checkbox"
+              />
+              <input
+                class="ok-btn input-btn-small"
+                type="button"
+                value="Sign in"
+              />
+            </div>
+          </form>
+          <h2 class="recover-form-header">Recover form</h2>
+          <form action="" class="recover-form">
+            <div class="input-container">
+              <input
+                type="text"
+                class="input-text"
+                placeholder="Enter your Email"
+                name="name"
+                id="recover-name"
+              /><i class="fas fa-envelope input-icon"></i>
+            </div>
+            <div class="input-container">
+              <input
+                type="tel"
+                class="input-text"
+                placeholder="Enter your Phone number"
+                name="phone-recover"
+                id="phone-recover"
+              /><i class="fas fa-mobile input-icon"></i>
+            </div>
+            <div class="btn-recover-container">
+              <input
+                class="ok-btn input-btn-small"
+                type="button"
+                value="Send"
+              />
+              <input
+                class="ok-btn input-btn-small"
+                type="button"
+                value="Done"
+              />
+            </div>
+          </form>
+          <h2 class="subscribe-form-header">Subscribe form</h2>
+          <form action="" class="subscribe-form">
+            <div class="input-container">
+              <input
+                type="email"
+                class="input-text"
+                placeholder="Enter your Email"
+                name="sub-email"
+                id="sub-email"
+              /><i class="fas fa-envelope input-icon"></i>
+            </div>
+            <div class="btn-sub-container">
+              <input
+                class="ok-btn input-btn-small"
+                type="button"
+                value="Subscribe"
+              />
+              <input
+                class="nok-btn input-btn-small"
+                type="button"
+                value="No, thanks"
+              />
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="small-forms">
-        <h2 class="sign-form-header">Sign in form</h2>
-        <form action="" class="sign-form">
-          <input type="text" class="input-text" name="username" id="sign-username">
-          <input type="password" class="input-text" name="pass-sign" id="pass-sign">
-          <div class="btn-sign-container">
-            <input type="checkbox" class="input-checkbox" name="sign-checkbox" id="sign-checkbox">
-            <input class="ok-btn input-btn-small" type="button" value="Sign in">
-          </div>
-        </form>
-        <h2 class="recover-form-header">Recover form</h2>
-        <form action="" class="recover-form">
-          <input type="text" class="input-text" name="name" id="recover-name">
-          <input type="tel" class="input-text" name="phone-recover" id="phone-recover">
-          <div class="btn-recover-container">
-            <input class="ok-btn input-btn-small" type="button" value="Send">
-            <input class="ok-btn input-btn-small" type="button" value="Done">
-          </div>
-        </form>
-        <h2 class="subscribe-form-header">Subscribe form</h2>
-        <form action="" class="subscribe-form">
-          <input type="email" class="input-text" name="sub-email" id="sub-email">
-          <div class="btn-sub-container">
-            <input class="ok-btn input-btn-small" type="button" value="Subscribe">
-            <input class="nok-btn input-btn-small" type="button" value="No, thanks">
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+    </section>
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-3.3.1.min.js"><\/script>'
+        );
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-  </script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () {
-      ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('send', 'pageview')
-
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</body>
-
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function() {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script
+      src="https://www.google-analytics.com/analytics.js"
+      async
+      defer
+    ></script>
+  </body>
 </html>
