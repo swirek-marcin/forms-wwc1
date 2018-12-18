@@ -8,9 +8,9 @@
 
 * { padding: 0; margin: 0; box-sizing: border-box; }
 
-:-ms-input-placeholder { padding-left: 55px; font-family: 'Titillium'; color: #afafaf; }
+:-ms-input-placeholder { padding-left: 55px; font-family: 'Titillium'; color: #afafaf; font-size: 16px; }
 
-::placeholder { padding-left: 55px; font-family: 'Titillium'; color: #afafaf; }
+::placeholder { padding-left: 55px; font-family: 'Titillium'; color: #afafaf; font-size: 16px; }
 
 body { font-family: Titillium-600; background-image: linear-gradient(red, #7efff5); background-repeat: no-repeat; }
 
@@ -22,13 +22,13 @@ form { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-dir
 
 .msg-input { height: 230px; }
 
-.input-btn-big { margin: 15px 0 25px 0; width: 340px; height: 48px; border-radius: 4px; }
+.input-btn-big { margin: 15px 0 25px 0; width: 340px; height: 48px; border-radius: 4px; font-size: 24px; }
 
-.input-btn-small { width: 150px; height: 41px; border-radius: 4px; }
+.input-btn-small { width: 150px; height: 41px; border-radius: 4px; font-size: 18px; }
 
-.ok-btn { background-color: #93d02b; color: #ffffff; text-shadow: 1px 1px 0 #51850e; cursor: pointer; }
+.ok-btn { background-color: #93d02b; color: #ffffff; text-shadow: 1px 1px 0 #51850e; cursor: pointer; font-family: 'Titillium-600'; }
 
-.nok-btn { background-color: #f4495b; color: #ffffff; cursor: pointer; }
+.nok-btn { background-color: #f4495b; color: #ffffff; cursor: pointer; font-family: 'Titillium-600'; }
 
 .container { max-width: 100%; width: 1100px; display: -ms-flexbox; display: flex; -ms-flex-pack: space-evenly; justify-content: space-evenly; margin: 40px auto; }
 
@@ -39,6 +39,10 @@ form { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-dir
 .input-icon { position: absolute; left: 22px; top: 18px; font-size: 24px; color: #afafaf; opacity: .7; }
 
 .input-icon:after { content: ''; position: absolute; left: 33px; border: 1px solid #afafaf; height: 25px; }
+
+.checkbox-container { width: 85%; display: -ms-flexbox; display: flex; -ms-flex-pack: start; justify-content: flex-start; -ms-flex-align: center; align-items: center; }
+
+.checkbox-text { padding-left: 15px; font-size: 17px; color: #afafaf; font-family: 'Titillium'; }
 
 @font-face { font-family: Titillium; src: url("../fonts/TitilliumText22L-250wt.otf"); }
 

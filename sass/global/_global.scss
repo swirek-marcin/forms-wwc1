@@ -13,6 +13,7 @@
   padding-left: 55px;
   font-family: 'Titillium';
   color: $form-font-color;
+  font-size: $font-size-xs;
 }
 
 body {
@@ -58,13 +59,14 @@ form {
   width: 340px;
   height: 48px;
   border-radius: 4px;
+  font-size: $font-size-l;
 }
 
 .input-btn-small {
-  // margin: 25px 0; 
   width: 150px;
   height: 41px;
   border-radius: 4px;
+  font-size: $font-size-m;
 }
 
 .ok-btn {
@@ -72,12 +74,14 @@ form {
   color: $white;
   text-shadow: 1px 1px 0 #51850e;
   cursor: pointer;
+  font-family: 'Titillium-600';
 }
 
 .nok-btn {
   background-color: $nok-btn-color;
   color: $white;
   cursor: pointer;
+  font-family: 'Titillium-600';
 }
 
 .container {
@@ -129,4 +133,19 @@ form {
     border: 1px solid $form-font-color;
     height: 25px;
   }
+}
+
+//Checkbox
+.checkbox-container {
+  width: 85%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.checkbox-text {
+  padding-left: 15px;
+  font-size: $font-size-s;
+  color: $form-font-color;
+  font-family: 'Titillium';
 }

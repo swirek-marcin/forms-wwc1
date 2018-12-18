@@ -84,12 +84,17 @@
                 id="register-location"
               /><i class="fas fa-map-marker-alt input-icon"></i>
             </div>
-            <input
-              type="checkbox"
-              class="input-checkbox checkbox-big"
-              name="checkbox"
-              id="register-checkbox"
-            />
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                class="input-checkbox checkbox-big"
+                name="checkbox"
+                id="register-checkbox"
+              />
+              <p class="checkbox-text">
+                I have read and accept the terms of use
+              </p>
+            </div>
             <input class="ok-btn input-btn-big" type="button" value="Sign Up" />
           </form>
           <h2 class="email-form-header">Send email</h2>
@@ -119,12 +124,15 @@
               name="message"
               id="mail-msg"
             />
-            <input
-              type="checkbox"
-              class="input-checkbox checkbox-big"
-              name="checkbox"
-              id="email-checkbox"
-            />
+            <div class="checkbox-container">
+              <input
+                type="checkbox"
+                class="input-checkbox checkbox-big"
+                name="checkbox"
+                id="email-checkbox"
+              />
+              <p class="checkbox-text">Send a copy to my email</p>
+            </div>
             <input
               class="ok-btn input-btn-big"
               type="button"
@@ -154,12 +162,15 @@
               /><i class="fas fa-lock input-icon"></i>
             </div>
             <div class="btn-sign-container">
-              <input
-                type="checkbox"
-                class="input-checkbox"
-                name="sign-checkbox"
-                id="sign-checkbox"
-              />
+              <div class="checkbox-container">
+                <input
+                  type="checkbox"
+                  class="input-checkbox"
+                  name="sign-checkbox"
+                  id="sign-checkbox"
+                />
+                <p class="checkbox-text">Remember me</p>
+              </div>
               <input
                 class="ok-btn input-btn-small"
                 type="button"
@@ -185,7 +196,7 @@
                 placeholder="Enter your Phone number"
                 name="phone-recover"
                 id="phone-recover"
-              /><i class="fas fa-mobile input-icon"></i>
+              /><i class="fas fa-phone-square input-icon"></i>
             </div>
             <div class="btn-recover-container">
               <input
