@@ -20,7 +20,7 @@ form { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-dir
 
 .input-text { margin: 11px; width: 340px; height: 41px; background-color: #f8f8f8; border: 1px solid #c6c6c6; padding-left: 60px; }
 
-.msg-input { height: 230px; }
+.msg-input { height: 230px; width: 340px; }
 
 .input-btn-big { margin: 15px 0 25px 0; width: 340px; height: 48px; border-radius: 4px; font-size: 24px; }
 
