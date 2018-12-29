@@ -44,6 +44,8 @@ form { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-dir
 
 .checkbox-text { padding-left: 15px; font-size: 17px; color: #afafaf; font-family: 'Titillium'; }
 
+.error { font-size: 10px; color: #f4495b; width: 100%; text-align: center; position: absolute; bottom: 11px; }
+
 @font-face { font-family: Titillium; src: url("../fonts/TitilliumText22L-250wt.otf"); }
 
 @font-face { font-family: Titillium-600; src: url("../fonts/TitilliumText22L-600wt.otf"); }

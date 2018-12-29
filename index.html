@@ -42,10 +42,11 @@
             <div class="input-container">
               <input
                 type="text"
-                class="input-text"
+                class="input-text username-register"
                 placeholder="Username"
                 name="user_name"
                 id="register-name"
+                required
               /><i class="fas fa-user input-icon"></i>
             </div>
             <div class="input-container">
@@ -55,6 +56,7 @@
                 placeholder="Password"
                 name="password"
                 id="register-pass"
+                required
               /><i class="fas fa-lock input-icon"></i>
             </div>
             <div class="input-container">
@@ -64,16 +66,18 @@
                 placeholder="Confirm Password"
                 name="password"
                 id="pass"
+                required
               /><i class="fas fa-lock input-icon"></i>
             </div>
             <div class="input-container">
               <input
                 type="email"
-                class="input-text"
+                class="input-text email-input-one"
                 placeholder="Email"
                 name="user_email"
                 id="register-email"
               /><i class="fas fa-envelope input-icon"></i>
+              <span class="error" aria-live="polite"></span>
             </div>
             <div class="input-container">
               <input
@@ -82,6 +86,7 @@
                 placeholder="Your Location"
                 name="user_location"
                 id="register-location"
+                required
               /><i class="fas fa-map-marker-alt input-icon"></i>
             </div>
             <div class="checkbox-container">
@@ -90,6 +95,7 @@
                 class="input-checkbox checkbox-big"
                 name="terms_checkbox"
                 id="register-checkbox"
+                required
               />
               <p class="checkbox-text">
                 I have read and accept the terms of use
@@ -106,16 +112,19 @@
                 placeholder="Your Name"
                 name="user_name"
                 id="mail-name"
+                required
               /><i class="fas fa-user input-icon"></i>
             </div>
             <div class="input-container">
               <input
                 type="email"
-                class="input-text"
+                class="input-text email-input-two"
                 placeholder="Your Email"
                 name="user_email"
                 id="mail-email"
+                required
               /><i class="fas fa-envelope input-icon"></i>
+              <span class="error" aria-live="polite"></span>
             </div>
             <textarea
               type="text"
@@ -123,6 +132,7 @@
               placeholder="Type your message..."
               name="message"
               id="mail-msg"
+              required
             >
             </textarea>
             <div class="checkbox-container">
@@ -149,6 +159,7 @@
                 placeholder="Username"
                 name="user_name"
                 id="sign-username"
+                required
               /><i class="fas fa-user input-icon"></i>
             </div>
             <div class="input-container">
@@ -158,6 +169,7 @@
                 placeholder="Password"
                 name="password"
                 id="pass-sign"
+                required
               /><i class="fas fa-lock input-icon"></i>
             </div>
             <div class="btn-sign-container">
@@ -180,11 +192,13 @@
             <div class="input-container">
               <input
                 type="text"
-                class="input-text"
+                class="input-text email-input-three"
                 placeholder="Enter your Email"
                 name="user_name"
                 id="recover-name"
+                required
               /><i class="fas fa-envelope input-icon"></i>
+              <span class="error" aria-live="polite"></span>
             </div>
             <div class="input-container">
               <input
@@ -193,6 +207,7 @@
                 placeholder="Enter your Phone number"
                 name="phone_recover"
                 id="phone-recover"
+                required
               /><i class="fas fa-phone-square input-icon"></i>
             </div>
             <div class="btn-recover-container">
@@ -205,11 +220,13 @@
             <div class="input-container">
               <input
                 type="email"
-                class="input-text"
+                class="input-text email-input-four"
                 placeholder="Enter your Email"
                 name="user_email"
                 id="sub-email"
+                required
               /><i class="fas fa-envelope input-icon"></i>
+              <span class="error" aria-live="polite"></span>
             </div>
             <div class="btn-sub-container">
               <button class="ok-btn input-btn-small" type="submit">
